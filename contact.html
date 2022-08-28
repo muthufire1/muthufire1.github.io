@@ -322,7 +322,7 @@
         <h3 class="column-title">We love to hear</h3>
         <!-- contact form works with formspree.io  -->
         <!-- contact form activation doc: https://docs.themefisher.com/constra/contact-form/ -->
-        <form id="contact-form" action="#" method="post" role="form">
+        <form id="contact-form" action="#" method="post" role="form" onsubmit="sendEmail(); reset(); return false">
           <div class="error-container"></div>
           <div class="row">
             <div class="col-md-4">
@@ -462,9 +462,26 @@
 
   <!-- Template custom -->
   <script src="js/script.js"></script>
-
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
   <script src="./mail.js"></script>
+  
+  <script>
+    function sendEmail(){
+          Email.send({
+          SecureToken : "2345dda5-ab49-4071-aff3-b1e418f88ac7",
+          To : 'akilmv555@gmail.com',
+          From : document.getElementById("email").value,
+          Subject : "Lead From Muthufire.com",
+          Body : "Name : " + document.getElementById("name").value +
+            "<br>Email : " + document.getElementById("email").value +
+            "<br>PhNumber : " + document.getElementById("PhoneNumber").value +
+            "<br>Message : " + document.getElementById("message").value
+          }).then(
+          message => alert(message)
+          );
+    }
+  </script>
   </div><!-- Body inner end -->
   </body>
 
