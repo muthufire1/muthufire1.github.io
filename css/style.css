@@ -189,7 +189,7 @@ a:focus {
 }
 
 .dark-bg {
-  background: #252525;
+  background: #222222;
   color: #fff;
 }
 
@@ -227,7 +227,7 @@ a:focus {
 }
 
 .bg-overlay:after {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color:#222222;
   z-index: 0;
   position: absolute;
   content: '';
@@ -673,7 +673,7 @@ ul.top-info li p.info-text {
 
 .header-one,
 .header-one .site-navigation {
-  background: #23282d;
+  background: #222222;
 }
 
 .header-one .navbar-collapse {
@@ -2486,7 +2486,7 @@ img.testimonial-thumb {
 ================================================== */
 /*- Footer common */
 .footer {
-  background-color: #0d0d0d;
+  background-color: #222222;
   color: #999;
 }
 
