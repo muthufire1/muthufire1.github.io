@@ -739,8 +739,8 @@ ul.navbar-nav > li.active > a {
 
 /*-- Logo --*/
 .logo img {
-  width: auto;
-  height: 150px;
+  width: 200px;
+  height: auto;
   object-fit: scale-down;
 
 }
@@ -778,8 +778,8 @@ ul.top-info-box li {
   margin-left: 0;
   border-right: 1px solid #dedede;
   border-right: 1px solid rgba(0, 0, 0, 0.1);
-  padding-right: 25px;
-  margin-right: 25px;
+  padding-right: 10px;
+  margin-right: 10px;
 }
 
 @media (max-width: 767px) {
@@ -3549,4 +3549,13 @@ label {
   font-weight: 700;
 }
 
+.card-image {
+  width: 300px;
+  height: auto;
+}
 /*# sourceMappingURL=maps/style.css.map */
+
+.card {
+  border: 1px solid black;
+}
+
