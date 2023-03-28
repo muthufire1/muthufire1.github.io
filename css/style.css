@@ -2494,6 +2494,15 @@ img.testimonial-thumb {
   padding: 80px 0 60px;
 }
 
+.address{
+  margin-top: 25px;
+}
+
+.address h5{
+  color :rgb(255, 255, 255);
+  margin-top: 10px;
+}
+
 .footer .widget-title {
   font-size: 16px;
   font-weight: 700;
