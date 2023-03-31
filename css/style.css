@@ -2675,11 +2675,13 @@ img.testimonial-thumb {
   text-transform: uppercase;
   font-size: 58px;
   font-weight: 900;
+  line-height: 50pt;
 }
 
 @media (max-width: 767px) {
   .banner-title {
     font-size: 48px;
+    line-height: 30pt;
   }
 }
 
@@ -3562,9 +3564,15 @@ label {
   width: 300px;
   height: auto;
 }
-/*# sourceMappingURL=maps/style.css.map */
-
-.card {
-  border: 1px solid black;
+.bt-pad{
+  margin-bottom: 50px;
 }
 
+.header-get-a-quote .btn{
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.info-box-content{
+  margin-bottom: 10px;
+}
