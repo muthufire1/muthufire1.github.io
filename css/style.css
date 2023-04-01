@@ -478,6 +478,16 @@ ul.list-check li:before {
   border: 0;
 }
 
+.fire-hydrant-ul{
+  column-count: 2;
+}
+
+@media screen and (max-width: 400px) {
+  .fire-hydrant-ul {
+    column-count: 1;
+  }
+}
+
 .nav > li > a:focus,
 .nav > li > a:hover {
   background: none;
