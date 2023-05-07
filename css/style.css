@@ -786,10 +786,13 @@ ul.top-info-box li {
   display: inline-block;
   text-align: center;
   margin-left: 0;
-  border-right: 1px solid #dedede;
-  border-right: 1px solid rgba(0, 0, 0, 0.1);
   padding-right: 10px;
   margin-right: 10px;
+}
+
+.border-put{
+  border-right: 1px solid #dedede;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 767px) {
@@ -2577,10 +2580,6 @@ img.testimonial-thumb {
   color: #747474;
 }
 
-.footer-widget ul.list-arrow li:hover a,
-.footer-widget ul.list-arrow li:hover {
-  color: #ffb600;
-}
 
 .working-hours {
   padding-right: 10px;
@@ -3579,10 +3578,14 @@ label {
 }
 
 .header-get-a-quote .btn{
-  margin-top: -20px;
+  margin-top: -5px;
   margin-bottom: 20px;
 }
 
 .info-box-content{
   margin-bottom: 10px;
+}
+
+.pad-down{
+  margin-bottom: 20px;
 }
