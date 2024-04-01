@@ -2659,6 +2659,30 @@ img.testimonial-thumb {
   color: #fff;
 }
 
+
+#whatsapp-widget {
+  right: 40px;
+  bottom: 60px; 
+  z-index: 10;
+}
+
+
+#whatsapp-widget{
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 3px;
+  color: #ffb600;
+  font-size: 25px;
+  text-align: center;
+}
+
+
+#whatsapp-widget .fab.fa-whatsapp:hover {
+  background: #fff; /* Change color on hover */
+}
+
 /* Sub Pages
 ================================================== */
 /*-- Title border --*/
