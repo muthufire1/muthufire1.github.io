@@ -3609,3 +3609,9 @@ label {
 .pad-down{
   margin-bottom: 20px;
 }
+
+.card {
+  margin-top: 20px; /* Optional: Remove card border */
+  border-radius: 0; /* Optional: Remove card border radius for a more streamlined look */
+}
+
